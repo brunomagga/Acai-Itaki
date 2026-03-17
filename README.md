@@ -3,7 +3,7 @@ Bruno Martin Magalhães   RA: 10752758
 Henry Ribeiro Reis    RA: 10752725
 Luiz Fernando Nakamura   RA: 10738516
 Gustavo Pereira Biasso RA: 10738330
-Jose Augusto Serra Mota   RA: 10750142
+
 
  **Ideação**
 
