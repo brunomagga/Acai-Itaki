@@ -1,0 +1,14 @@
+.imagem{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+
+}
+
+header .menu{
+    display: flex;
+    justify-content: space-between;   
+    padding-left: 10cm;
+    list-style-type: none;
+    gap: -50px;
