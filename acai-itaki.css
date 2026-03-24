@@ -153,6 +153,24 @@ body > hr:first-of-type {
   box-shadow: var(--shadow);
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
+#depoimentos button {
+  margin-top: 16px;
+  min-height: 45px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--primary), var(--primary-2));
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+#depoimentos button:hover {
+  transform: translateY(-2px);
+  opacity: 0.95;
+}
 
 #principal button:hover,
 #copos button:hover,
