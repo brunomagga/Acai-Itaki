@@ -223,12 +223,15 @@ body > hr:first-of-type {
   gap: 16px;
 }
 
-#copos article::before {
-  content: "";
-  width: 100%;
-  height: 180px;
-  border-radius: 14px;
-  background: linear-gradient(135deg, #e7d0dc, #f7ebdf);
+.img_copo{
+  height: 170px;
+  width: 170px;
+
+}
+
+#img_logo{
+  width: 130px;
+  height: 130px;
 }
 
 #copos li:first-child {

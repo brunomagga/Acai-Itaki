@@ -16,6 +16,10 @@ Para chegar a essa ideia, realizamos um momento de brainstorming em grupo. Inici
 
 O projeto possui caráter extensionista porque foi desenvolvido para atender a uma necessidade real da comunidade, conectando o conhecimento acadêmico à prática social. A criação do site para a loja de açaí representa uma forma concreta de aplicar os conteúdos aprendidos em sala de aula em benefício de um pequeno empreendedor local. Ao desenvolver essa solução, contribuímos para fortalecer a presença digital do comércio, ampliar sua divulgação e apoiar o empreendedorismo na comunidade. Além disso, ao publicar o projeto no GitHub, possibilitamos que outras pessoas tenham acesso ao trabalho, promovendo o compartilhamento de conhecimento e ampliando o impacto da iniciativa para além da sala de aula.
 
+**Aprendizados Adqueridos**
+
+Ao longo desse projeto, conseguimos aprimorar significativamente nossas habilidades em HTML e CSS, aprofundando principalmente o conhecimento em CSS, explorando melhor suas propriedades e possibilidades de estilização. Em relação ao JavaScript, revisamos práticas que já havíamos estudado anteriormente, o que contribuiu para reforçar nosso entendimento, além de desenvolvermos um pouco mais nossa lógica de programação. Também tivemos um primeiro contato mais direcionado com versionamento de código, onde a professora nos orientou e compartilhou dicas importantes, especialmente para lidar com dificuldades ao realizar o envio de projetos para o GitHub.
+
 **TUTORIAL**
 # Açaí Itaki — Estrutura do HTML
 
@@ -23,7 +27,7 @@ Este projeto apresenta a estrutura básica de um site para uma loja fictícia ch
 
 O documento começa com a declaração `<!DOCTYPE html>`, que informa ao navegador que o arquivo utiliza o padrão **HTML5**. Logo em seguida aparece a tag `<html>`, que representa a raiz do documento e envolve todo o conteúdo da página.
 
-Dentro da estrutura principal existe a seção `<head>`, responsável pelas configurações da página. Nela encontramos a tag `<meta charset="UTF-8">`, que define a codificação de caracteres permitindo o uso correto de acentos e caracteres especiais. Também está presente a meta tag de **viewport**, utilizada para que o site seja exibido corretamente em dispositivos móveis como celulares e tablets. Há ainda a tag `<link rel="stylesheet">`, que serve para conectar um arquivo CSS externo responsável pela estilização do site. Por fim, a tag `<title>` define o nome que aparece na aba do navegador, que neste caso é **Açaí Itaki**.
+Dentro da estrutura principal existe a seção `<head>`, responsável pelas configurações da página. Nela encontramos a tag `<meta charset="UTF-8">`, que define a codificação de caracteres permitindo o uso correto de acentos e caracteres especiais. Também está presente a meta tag de **viewport**, utilizada para que o site seja exibido corretamente em dispositivos móveis como celulares e tablets. Há ainda a tag `<link rel="stylesheet">`, que serve para conectar um arquivo CSS externo responsável pela estilização do site, temos tambem um href indicando o caminho das imagens na propria pasta. Por fim, a tag `<title>` define o nome que aparece na aba do navegador, que neste caso é **Açaí Itaki**.
 
 Após o head começa a estrutura visível do site dentro da tag `<body>`. A primeira parte é o `<header>`, que representa o cabeçalho da página. Nesse espaço normalmente ficam o logotipo da empresa e o menu de navegação. No código existe uma tag `<img>` destinada ao logo e uma lista `<ul>` contendo itens `<li>` que representam as opções do menu: HOME, PRODUTOS, SOBRE e CONTATO. Esse menu serviria para direcionar o usuário para diferentes partes do site.
 
@@ -31,7 +35,7 @@ Depois do cabeçalho existe uma linha horizontal criada com `<hr>`, usada apenas
 
 Logo abaixo existe outra seção chamada `<section id="linha">`, que funciona como um separador para indicar a área de produtos do site. Dentro dela há uma linha horizontal e o texto **NOSSOS PRODUTOS**, introduzindo a vitrine de itens disponíveis.
 
-A seção `<section id="copos">` contém os produtos que a loja oferece. Cada produto é representado por um `<article>`, que serve para separar conteúdos independentes dentro da página. Em cada artigo aparecem o nome do produto, uma linha de separação, o preço e um botão de compra. Esse botão poderia futuramente levar o usuário para um carrinho de compras ou página de pagamento.
+A seção `<section id="copos">` contém os produtos que a loja oferece. Cada produto é representado por um `<article>` e por um href das imagens dos produtos da loja, que serve para separar conteúdos independentes dentro da página. Em cada artigo aparecem o nome do produto, uma linha de separação, o preço e um botão de compra. Esse botão poderia futuramente levar o usuário para um carrinho de compras ou página de pagamento.
 
 Mais abaixo encontramos o `<article id="sobre">`, que apresenta uma breve descrição sobre o açaí ou sobre a empresa. Dentro dele existe um título `<h4>`, uma linha horizontal `<hr>`, um parágrafo `<p>` contendo o texto descritivo e um botão chamado **Saiba mais**, que poderia direcionar para uma página com mais informações.
 
@@ -67,6 +71,8 @@ Depois disso, o código trata a funcionalidade de cadastro de e-mail na seção 
 O campo de e-mail também recebe um evento de teclado (keydown), permitindo que o usuário envie o formulário pressionando a tecla Enter. Além disso, o botão da seção premium também executa a mesma função de validação ao ser clicado, oferecendo duas formas de interação.
 Na sequência, o código implementa a funcionalidade de envio de depoimentos. Ele seleciona o botão de envio (btnDepoimento) e o campo de texto (textarea). Quando o botão é clicado, o conteúdo digitado é verificado. Caso esteja vazio, o sistema alerta o usuário para escrever um depoimento antes de enviar. Se houver conteúdo, uma mensagem de sucesso é exibida, o depoimento é registrado no console e o campo é limpo.
 De forma geral, esse JavaScript adiciona interatividade essencial ao site, permitindo que o usuário simule a adição de produtos ao carrinho, realize o cadastro de e-mail para receber novidades e envie avaliações. Com isso, a página deixa de ser apenas estática e passa a oferecer uma experiência mais completa e próxima de um sistema real.
+
+
                        
 <img width="277" height="616" alt="image" src="https://github.com/user-attachments/assets/18e5b9cb-2597-4eb4-8336-6e557b7ecb3a" />
 
